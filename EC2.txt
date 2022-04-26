@@ -1,3 +1,5 @@
+Connecting to EC2 servers from Windows Laptop(server)
+
 1) search EC2 in AWS 
 2)select launch Instance
 3)select AMI(windows,linux or mac os)
@@ -16,3 +18,12 @@ For Linux instance
 3)open putty, enter host and save 
 4)double click on SSh, click on auth, browse for .ppk file 
 5) load and open then linux instance will launch
+
+using ssh for linux instance
+1)open powershell
+2)type ssh -i <path of .pem file> user(ec2_user)@(ip address)
+
+using EC2 connect instance 
+We can connect to EC2 servers using EC2 connect instance in amazon
+
+

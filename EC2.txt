@@ -1,0 +1,18 @@
+1) search EC2 in AWS 
+2)select launch Instance
+3)select AMI(windows,linux or mac os)
+4)create key pair and save
+5)Leave all defaults and launch instance
+6)once instance is running, select and click connect.
+
+For windows instance
+1)select Remote Desktop Protocal(RDP) client
+2)click get password and browse for key pair file, decrypt and save password
+3)downlod remote desktop file and click connect and enter password
+
+For Linux instance
+1) download putty and putty gen
+2)using putty gen create .ppk file from key_pair.pem file.
+3)open putty, enter host and save 
+4)double click on SSh, click on auth, browse for .ppk file 
+5) load and open then linux instance will launch
